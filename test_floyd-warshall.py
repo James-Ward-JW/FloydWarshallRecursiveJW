@@ -47,3 +47,6 @@ class TestFloydWarshall(unittest.TestCase):
                  [NO_PATH, NO_PATH, NO_PATH, 0]]
         with self.assertRaises(TypeError):
             shortest_path(1, 2, 3, graph)
+
+# import pkg_resources; installed_packages = [(d.project_name, d.version) for d in pkg_resources.working_set]
+# print(installed_packages)

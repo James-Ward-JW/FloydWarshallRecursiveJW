@@ -20,7 +20,7 @@ def shortest_path(s, e, i, d):
     if i < 0:
         return d[s][e]
 
-    # CHANGE
+    # Check all possible paths
     return min(shortest_path(s, e, i - 1, d), shortest_path(s, i, i - 1, d) + shortest_path(i, e, i - 1, d))
 
 
@@ -45,3 +45,6 @@ def floyd_warshall(distance):
 
 
 print(floyd_warshall(graph))
+
+import pkg_resources; installed_packages = [(d.project_name, d.version) for d in pkg_resources.working_set]
+print(installed_packages)

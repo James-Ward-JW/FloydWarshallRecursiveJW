@@ -2,8 +2,8 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+      <module fileurl="file://$PROJECT_DIR$/../codingActivities/.idea/Activity_3.1.iml" filepath="$PROJECT_DIR$/../codingActivities/.idea/Activity_3.1.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/FloydWarshallRecursiveJW.iml" filepath="$PROJECT_DIR$/.idea/FloydWarshallRecursiveJW.iml" />
-      <module fileurl="file://$PROJECT_DIR$/../codingActivities/.idea/codingActivities.iml" filepath="$PROJECT_DIR$/../codingActivities/.idea/codingActivities.iml" />
     </modules>
   </component>
 </project>
